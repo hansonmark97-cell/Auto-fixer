@@ -5,7 +5,7 @@ import { supabase } from '../config/supabase.js';
  * premium subscription before serving a premium repair guide.
  *
  * Expects the Supabase JWT to be forwarded in the Authorization header:
- *   Authorization: ******
+ *   Authorization: Bearer <token>
  *
  * Usage: attach after the guide is fetched so that `req.guide` is available.
  */
