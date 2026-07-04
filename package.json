@@ -1,0 +1,29 @@
+{
+  "name": "auto-fixer",
+  "version": "1.0.0",
+  "description": "Build a money making app its a app to fix vehicles.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansonmark97-cell/Auto-fixer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansonmark97-cell/Auto-fixer/issues"
+  },
+  "homepage": "https://github.com/hansonmark97-cell/Auto-fixer#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
